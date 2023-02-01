@@ -4,10 +4,18 @@
   
 }
 
+@import url("https://fonts.googleapis.com/css?family=Rubik:700&display=swap");
+
+
 
 :root {
   --color-main: #8c0032;
   /* --color-main: #343A7D; */
+  --color-base-light: #fff0f0;
+  --color-base: #ffe9e9;
+  --color-base-dark: #f9c4d2;
+  --color-base-border: #b18597;
+  --color-base-shadow: #ffe3e2;
 }
 
 

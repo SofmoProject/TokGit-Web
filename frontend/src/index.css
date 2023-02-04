@@ -9,14 +9,19 @@
 
 
 :root {
-  --color-main: #8c0032;
-  /* --color-main: #343A7D; */
   /* --color-main: black; */
+  --color-main: #8c0032;
   --color-base-light: #fff0f0;
-  --color-base: #ffe9e9;
+  --color-base: #fde6e6;
   --color-base-dark: #f9c4d2;
   --color-base-border: #b18597;
   --color-base-shadow: #ffe3e2;
+  /* --color-main: #343A7D;
+  --color-base-light: #e8ebff;
+  --color-base: #bdc3fa;
+  --color-base-dark: #aec8ff;
+  --color-base-border: #5e6b96;
+  --color-base-shadow: #d0d5fd; */
 }
 
 

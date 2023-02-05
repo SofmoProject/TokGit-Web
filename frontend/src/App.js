@@ -12,7 +12,7 @@ function App() {
         <Title />
         <img class="intro" src={intro} alt='intro'/>
         <Button text="Github 계정으로 시작하기"/>
-
+      
       </div>
     </>
   );

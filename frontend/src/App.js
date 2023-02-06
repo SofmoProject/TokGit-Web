@@ -1,20 +1,25 @@
-import './App.css';
-import intro from './assets/image/intro.png'
-import Title from './components/home/Title';
-import Snow from './components/home/Snow';
-import Button from './components/btn/Button';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Choice from './pages/Choice';
+import Home from './pages/Home';
+import Root from './pages/Root';
+
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Root />,
+    children: [
+      { index:true, element: <Home/>},
+      { path:'/choice', element: <Choice/>},
+    ]
+  },
+])
+
 
 function App() {
   return (
-    <>
-      <Snow />
-      <div className="App">
-        <Title />
-        <img class="intro" src={intro} alt='intro'/>
-        <Button text="Github 계정으로 시작하기"/>
-      
-      </div>
-    </>
+    <RouterProvider router={router}/>
+  
   );
 }
 

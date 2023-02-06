@@ -19,8 +19,6 @@
   /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
 }
 
-
-
 .intro {
   /* position: relative; */
   width: 35%;
@@ -29,15 +27,3 @@
 
 }
 
-.BG {
-  position: absolute;
-  width: 15vw;
-  top:  10vh;
-  right: 10vw;
-}
-.BG2 {
-  position: absolute;
-  width: 15vw;
-  top:  10vh;
-  left: 10vw
-}

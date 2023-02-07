@@ -10,7 +10,7 @@ export default function Root() {
   return (
     <>
       <Snow />
-      <p className={styles.modetype}> Dark 모드</p>
+      <p className={styles.modetype}> Red 모드</p>
       <div className={styles.App}>
         <Outlet />
       </div>

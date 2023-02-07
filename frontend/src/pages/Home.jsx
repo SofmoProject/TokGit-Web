@@ -3,13 +3,17 @@ import intro from '../assets/image/intro.png'
 import Title from '../components/home/Title';
 import Button from '../components/btn/Button';
 import { useNavigate } from "react-router-dom";
+import bubble from "../assets/audio/bubble.mp3"
 
 export default function Home() {
     
 
     const navigate = useNavigate();
     function handleClick(){
-        navigate('/choice')
+      const audio = new Audio(bubble);
+      audio.volume = 0.3;
+      audio.play();
+      navigate('/choice')
     }
 
   return (

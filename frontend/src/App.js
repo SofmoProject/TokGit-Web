@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Choice from './pages/Choice';
 import Home from './pages/Home';
 import Root from './pages/Root';
+import { BlueModeProvider } from './context/BlueModeContext';
 
 
 const router = createBrowserRouter([
@@ -18,7 +19,9 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <RouterProvider router={router}/>
+    <BlueModeProvider>
+      <RouterProvider router={router}/>
+    </BlueModeProvider>
   
   );
 }

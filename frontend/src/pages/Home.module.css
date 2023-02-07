@@ -39,10 +39,37 @@
     
 }
 
-.modetype {
+.Flagbox {
+  position: absolute;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+  top: 11vh;
+  right: 35vw;
+  transition: 0.3;
+}
+
+.Redflag {
+  width: 2vw;
+}
+
+.Flagbox:hover {
+  transform: scale(1.2);
+}
+
+
+.Bgm {
     position: absolute;
-    font-size: 1.5rem;
-    top: 12vh;
-    color: white;
-    right: 32vw;
+    width: 3vw;
+    top: 13.5vh;
+    right: 31vw;
+    cursor: pointer;
+}
+
+.Bgm:hover {
+  transform: scale(1.2);
 }

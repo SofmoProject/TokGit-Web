@@ -1,11 +1,15 @@
 import { createContext, useContext, useEffect, useState } from "react";
-
+import bubble from '../assets/audio/bubble.mp3'
 
 const BlueModeContext = createContext();
 
 export function BlueModeProvider({children}) {
     const [blueMode, setBlueMode] = useState(false);
     const toggleBlueMode = () => {
+
+        const audio = new Audio(bubble);
+        audio.volume = 0.4;
+        audio.play();
         setBlueMode(!blueMode);
         updateBlueMode(!blueMode);
     };

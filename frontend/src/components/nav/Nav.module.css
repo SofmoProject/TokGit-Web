@@ -5,6 +5,48 @@
     width: 34vw;
     height: 7vh;
     top: 25vh;
-    background-color: blue;
-    color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: blue; */
+    /* color: red; */
+}
+
+.Nav_Left {
+    font-family: "Rubik";
+    font-size: 1.8vw;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Nav_Right {
+    display: flex;
+}
+
+.logo {
+    position: relative;
+    width: 2.5vw;
+    margin-right: 5px;
+    top: -4px;
+}
+
+.icon {
+    width: 2.5vw;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.icon:hover{
+    transform: scale(1.2);
+}
+
+
+.iconbox{
+    display: flex;
+    flex-direction: column;
 }

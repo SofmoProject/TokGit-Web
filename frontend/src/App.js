@@ -4,6 +4,9 @@ import Home from './pages/Home';
 import Root from './pages/Root';
 import { BlueModeProvider } from './context/BlueModeContext';
 import Main from './pages/Main';
+import Calendar from './pages/Calendar';
+import Rank from './pages/Rank';
+import Settings from './pages/Settings';
 
 
 const router = createBrowserRouter([
@@ -13,7 +16,10 @@ const router = createBrowserRouter([
     children: [
       { index:true, element: <Home/>},
       { path:'/choice', element: <Choice/>},
-      { path:'/main', element: <Main/>}
+      { path:'/main', element: <Main/>},
+      { path:'/calendar', element: <Calendar/>},
+      { path:'/rank', element: <Rank/>},
+      { path:'/settings', element: <Settings/>}
     ]
   },
 ])

@@ -1,0 +1,10 @@
+
+
+.Nav {
+    position: absolute;
+    width: 34vw;
+    height: 7vh;
+    top: 25vh;
+    background-color: blue;
+    color: red;
+}

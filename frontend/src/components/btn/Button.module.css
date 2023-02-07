@@ -16,6 +16,8 @@
   font-family: "Nana";
   font-weight: 600;
   color: black;
+  margin-left: 2vw;
+  margin-right: 2vw;
   padding: 1rem 1.5rem;
   background: var(--color-base-light);
   border: 2px solid var(--color-base-border);

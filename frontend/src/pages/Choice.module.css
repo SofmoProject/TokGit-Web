@@ -1,0 +1,66 @@
+
+
+.choice_title {
+    position: relative;
+    font-size: 2rem;
+    top: -2.5vh;
+}
+
+.rabbit_box {
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: aquamarine; */
+}
+
+.rabbit {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    margin: 1vw;
+    cursor: pointer;
+    border: 2px solid var(--color-base-border);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.2s;
+}
+
+.rabbit:hover{
+    transform: scale(1.2);
+}
+
+
+
+.btn1{
+    color: white;
+}
+
+.choice_box{
+    position: relative;
+    top: 2vh;
+}
+
+.check1 {
+    position: absolute;
+    width: 10vw;
+    top: 30vh;
+    left: 34vw;
+    z-index: 100;
+}
+
+.check2 {
+    position: absolute;
+    width: 10vw;
+    top: 30vh;
+    left: 46vw;
+    z-index: 100;
+}
+
+.check3 {
+    position: absolute;
+    width: 10vw;
+    top: 30vh;
+    right: 32vw;
+    z-index: 100;
+}

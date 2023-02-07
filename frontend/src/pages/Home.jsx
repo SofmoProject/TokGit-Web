@@ -11,7 +11,7 @@ export default function Home() {
     const navigate = useNavigate();
     function handleClick(){
       const audio = new Audio(bubble);
-      audio.volume = 0.3;
+      audio.volume = 0.4;
       audio.play();
       navigate('/choice')
     }

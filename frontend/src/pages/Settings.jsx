@@ -1,5 +1,5 @@
 import Nav from "../components/nav/Nav";
-
+import { motion } from "framer-motion";
 
 
 export default function Settings() {
@@ -8,9 +8,12 @@ export default function Settings() {
 
     <>
     <Nav/>
-    <div>
+    <motion.div 
+    initial={{opacity: 0}}
+    animate={{opacity: 1}}
+    exit={{opacity: 0}}>
         Settings
-    </div>
+    </motion.div>
     </>
   )
 }

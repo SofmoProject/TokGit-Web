@@ -7,14 +7,17 @@ import Main from './pages/Main';
 import Calendar from './pages/Calendar';
 import Rank from './pages/Rank';
 import Settings from './pages/Settings';
-
+import Start from './components/home/Start';
+import { AnimatePresence } from "framer-motion";
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Root />,
     children: [
-      { index:true, element: <Home/>},
+      { index:true, element: <Start/>},
+      // { index:true, element: <Home/>},
+      { path:'/home', element: <Home/>},
       { path:'/choice', element: <Choice/>},
       { path:'/main', element: <Main/>},
       { path:'/calendar', element: <Calendar/>},
@@ -28,7 +31,9 @@ const router = createBrowserRouter([
 function App() {
   return (
     <BlueModeProvider>
-      <RouterProvider router={router}/>
+      <AnimatePresence>
+        <RouterProvider router={router}/>
+      </AnimatePresence>
     </BlueModeProvider>
   
   );

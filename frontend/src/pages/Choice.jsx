@@ -7,6 +7,7 @@ import Check_R from "../assets/image/Check_Red.png"
 import Check_B from "../assets/image/Check_Blue.png"
 import bubble from "../assets/audio/bubble.mp3"
 import { useNavigate } from "react-router-dom";
+import { motion } from "framer-motion";
 
 export default function Choice() {
 
@@ -36,7 +37,9 @@ export default function Choice() {
     }
 
     return (
-      <>
+      <motion.div initial={{opacity: 0}}
+      animate={{opacity: 1}}
+      exit={{opacity: 0}}>
         <div className={styles.choice_title}>
             당신의 토끼를 선택하세요.
         </div>
@@ -70,7 +73,7 @@ export default function Choice() {
           <Button text="이름 설정"/>
           <Button text="선택 완료" handleClick={handlebtn}/>
         </div>
-      </>
+      </motion.div>
   
     )
   }

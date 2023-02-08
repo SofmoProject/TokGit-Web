@@ -4,6 +4,7 @@ import Title from '../components/home/Title';
 import Button from '../components/btn/Button';
 import { useNavigate } from "react-router-dom";
 import bubble from "../assets/audio/bubble.mp3"
+import { motion } from "framer-motion";
 
 export default function Home() {
     
@@ -19,11 +20,14 @@ export default function Home() {
   return (
     <>
       {/* <Snow /> */}
-      <div className={styles.Home}>
+      <motion.div className={styles.Home}
+      initial={{opacity: 1}}
+      animate={{opacity: 1}}
+      exit={{opacity: 0}}>
         <Title />
         <img className={styles.intro} src={intro} alt='intro'/>
         <Button text="Github 계정으로 시작하기" handleClick={handleClick}/>
-      </div>
+      </motion.div>
     </>
 
   )

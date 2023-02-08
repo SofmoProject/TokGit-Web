@@ -8,11 +8,11 @@ export default function Start() {
 
     const navigate = useNavigate();
 
-    // useEffect(()=>{
-    //     setTimeout(()=>{
-    //         navigate('/home')
-    //     }, 3000);
-    // }, [])
+    useEffect(()=>{
+        setTimeout(()=>{
+            navigate('/home')
+        }, 1600);
+    }, [])
   
   return (
     <motion.div className={styles.start_box} 
@@ -28,7 +28,7 @@ export default function Start() {
             <span className={styles.starttext}>i</span>
             <span className={styles.starttext}>t</span>
         </div>
-        <div className={styles.starttext2}>토끼와 함께하는 커밋관리</div>
+        {/* <div className={styles.starttext2}>토끼와 함께하는 커밋관리</div> */}
     </motion.div>
   )
 }

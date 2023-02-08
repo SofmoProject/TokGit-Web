@@ -16,7 +16,7 @@
     position: relative;
     /* top: 20vh; */
     font-family: "Rubik";
-    font-size: 8vw;
+    font-size: 5vw;
     text-align: center;
     opacity: 1;
     transform: translate(-300px, 0) scale(0);
@@ -28,7 +28,7 @@
 
 .run {
   position: absolute;
-  width: 10vw;
+  width: 11vw;
   top: 35vh;
   left: 31vw;
   rotate: -20deg;
@@ -46,11 +46,11 @@
   }
   25% {
     rotate: -7deg;
-    transform: translate(10vw,-50px);
+    transform: translate(10vw,-40px);
   }
   50% {
     rotate: -3deg;
-    transform: translate(15vw,-65px);
+    transform: translate(15vw,-55px);
   }
 
   /* 60%{
@@ -58,12 +58,12 @@
   } */
 
   75% {
-    rotate: 3deg;
-    transform: translate(20vw,-65px);
+    rotate: 2.5deg;
+    transform: translate(20vw,-55px);
   }
   100% {
-    rotate: 10deg;
-    transform: translate(25vw,-65px);
+    rotate: 9deg;
+    transform: translate(25vw,-55px);
   }
   
 }
@@ -111,5 +111,5 @@
 .starttext2{
     position: relative;
     top: 1vh;
-    font-size: 2vw;
+    font-size: 1.8vw;
 }

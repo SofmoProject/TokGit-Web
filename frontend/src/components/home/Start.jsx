@@ -28,7 +28,7 @@ export default function Start() {
             <span className={styles.starttext}>i</span>
             <span className={styles.starttext}>t</span>
         </div>
-        {/* <div className={styles.starttext2}>토끼와 함께하는 커밋관리</div> */}
+        <div className={styles.starttext2}>토끼와 함께하는 커밋관리</div>
     </motion.div>
   )
 }

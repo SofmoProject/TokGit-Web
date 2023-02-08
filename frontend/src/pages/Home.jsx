@@ -21,7 +21,7 @@ export default function Home() {
     <>
       {/* <Snow /> */}
       <motion.div className={styles.Home}
-      initial={{opacity: 1}}
+      initial={{opacity: 0}}
       animate={{opacity: 1}}
       exit={{opacity: 0}}>
         <Title />

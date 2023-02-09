@@ -2,7 +2,7 @@ import styles from "./Home.module.css"
 import Snow from '../components/home/Snow';
 import { Outlet } from "react-router-dom";
 import { useState } from "react";
-import Viliage from "../assets/audio/Viliage.mp3"
+import Cookie from "../assets/audio/Cookie.mp3"
 import musicON from "../assets/image/musicOn.png"
 import musicOFF from "../assets/image/musicOff.png"
 import Redflag from '../assets/image/red.png'
@@ -12,7 +12,7 @@ import { useBlueMode } from '../context/BlueModeContext';
 export default function Root() {
     
   const [bgmOn, setbgmOn] = useState(false);
-  const [audio, setAudio] = useState(new Audio(Viliage));
+  const [audio, setAudio] = useState(new Audio(Cookie));
   const {blueMode, toggleBlueMode} = useBlueMode();
   
 
@@ -22,7 +22,7 @@ export default function Root() {
       audio.pause();
     } else {
       setbgmOn(true);
-      audio.volume = 0.4;
+      audio.volume = 0.3;
       audio.play();
       audio.loop = true;
     }

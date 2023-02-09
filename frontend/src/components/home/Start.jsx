@@ -11,8 +11,8 @@ export default function Start() {
     useEffect(()=>{
         setTimeout(()=>{
             navigate('/home')
-        }, 1600);
-    }, [])
+        }, 1500);
+    })
   
   return (
     <motion.div className={styles.start_box} 

@@ -16,7 +16,7 @@
     position: relative;
     /* top: 20vh; */
     font-family: "Rubik";
-    font-size: 5vw;
+    font-size: 6vw;
     text-align: center;
     opacity: 1;
     transform: translate(-300px, 0) scale(0);
@@ -33,7 +33,7 @@
   left: 31vw;
   rotate: -20deg;
   animation-name: runrun;
-  animation-duration: 1.7s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-fill-mode: none;

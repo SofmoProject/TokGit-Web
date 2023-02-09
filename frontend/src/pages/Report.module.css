@@ -1,0 +1,49 @@
+
+.report_div{
+    position: relative;
+    top: 6vh;
+    width: 33vw;
+    height: 37vh;
+    display: flex;
+    right: 0.5vw;
+}
+
+.calendar{
+    width: 60%;
+}
+
+.commit_box{
+    position: relative;
+    left: 1vw;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3vw;
+    background-color: var(--color-base-light);
+    border-radius: 10px;
+}
+
+.commit_text{
+    position: relative;
+    font-size: 1vw;
+    margin: 1vh;
+    top: 2vh;
+}
+
+.commit_title{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3vh;
+    top: 3vh;
+}
+
+.commit {
+    position: relative;
+    width: 2vw;
+    /* bottom: 5px; */
+    margin: 2px;
+}

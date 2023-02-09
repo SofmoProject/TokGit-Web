@@ -34,7 +34,7 @@ import bubble from "../../assets/audio/bubble.mp3"
           </div>
           <div className={styles.iconbox}>
             <img className={styles.icon} src={Calendar} 
-            onClick={handleOnclick} alt="calendar" />
+            onClick={handleOnclick} alt="report" />
             Calendar
           </div>
           <div className={styles.iconbox}>

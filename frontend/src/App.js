@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import Root from './pages/Root';
 import { BlueModeProvider } from './context/BlueModeContext';
 import Main from './pages/Main';
-import Calendar from './pages/Calendar';
+import Report from './pages/Report';
 import Rank from './pages/Rank';
 import Settings from './pages/Settings';
 import Start from './components/home/Start';
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
       { path:'/home', element: <Home/>},
       { path:'/choice', element: <Choice/>},
       { path:'/main', element: <Main/>},
-      { path:'/calendar', element: <Calendar/>},
+      { path:'/report', element: <Report/>},
       { path:'/rank', element: <Rank/>},
       { path:'/settings', element: <Settings/>}
     ]

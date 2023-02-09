@@ -1,0 +1,41 @@
+
+
+.maindiv {
+    display: flex;
+    position: relative;
+    background-color: var(--color-base);
+    border-radius: 30px;
+    width: 34vw;
+    height: 40vh;
+    top: 6vh;
+}
+
+
+.main_left{
+    width: 40%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4vw;
+    /* right: 2vw;
+    top: 4vh; */
+    /* width: 40%; */
+}
+
+.main_right{
+    width: 60%;
+    position: relative;
+    font-size: 1.7vw;
+    top: 2vh;
+}
+
+.Pet {
+    width: 11vw;
+}
+
+.level {
+    position: absolute;
+    top: 3vh;
+}

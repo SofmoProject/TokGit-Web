@@ -3,7 +3,6 @@
 .maindiv {
     display: flex;
     position: relative;
-    background-color: var(--color-base);
     border-radius: 30px;
     width: 34vw;
     height: 40vh;
@@ -27,7 +26,7 @@
 .main_right{
     width: 60%;
     position: relative;
-    font-size: 1.7vw;
+    font-size: 1.4vw;
     top: 2vh;
 }
 

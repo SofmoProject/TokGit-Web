@@ -17,10 +17,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1.4vw;
-    /* right: 2vw;
-    top: 4vh; */
-    /* width: 40%; */
+    bottom: 2.5vh;
+    right: 1vw;
+    
 }
 
 .main_right{
@@ -28,13 +27,34 @@
     position: relative;
     font-size: 1.4vw;
     top: 2vh;
+    right: 0.5vw;
+}
+
+.pet_name{
+    position: relative;
+    font-size: 2vw;
+    margin-bottom: 1.5vh;
 }
 
 .Pet {
-    width: 11vw;
+    width: 9vw;
 }
 
 .level {
     position: absolute;
-    top: 3vh;
+    color: white;
+    left: 5.5vw;
+    margin-top: 1vh;
+}
+
+.jandi_div{
+    position: relative;
+    /* left: 7vw; */
+    /* top: 3vh; */
+}
+
+.pet_div{
+    background-color: var(--color-main);
+    border: 5px double var(--color-base-border);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

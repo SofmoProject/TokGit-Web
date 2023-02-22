@@ -9,16 +9,16 @@ import { useBlueMode } from '../../context/BlueModeContext';
 export default function Progress() {
 
     const {blueMode} = useBlueMode();
-    const [bgColor, setBgColor] = useState("red")
+    const [bgColor, setBgColor] = useState("#F83552")
     const [bgbackColor, setBgbackColor] = useState("#fde6e6")
 
     useEffect(()=>{
 
         if (blueMode){
-            setBgColor("#2558ff")
+            setBgColor("#494DC0")
             setBgbackColor("#d3d7fd")
         } else{
-            setBgColor("red")
+            setBgColor("#F83552")
             setBgbackColor("#fde6e6")
         }
     },[blueMode])
